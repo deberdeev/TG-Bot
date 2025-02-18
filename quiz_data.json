@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Что такое Python?",
+        "options": ["Язык программирования", "Тип данных", "Музыкальный инструмент", "Змея на английском"],
+        "correct_option": 0
+    },
+    {
+        "question": "Какой тип данных используется для хранения целых чисел?",
+        "options": ["int", "float", "str", "natural"],
+        "correct_option": 0
+    },
+    {
+        "question": "Как открывать файл в Python для чтения?",
+        "options": ["r", "w", "t", "x"],
+        "correct_option": 0
+    },
+    {
+        "question": "Какая библиотека используется для удобного построения графиков и визуализации результатов?",
+        "options": ["SciPy", "TensorFlow", "Matplotlib", "Pandas"],
+        "correct_option": 2
+    },
+    {
+        "question": "Какой тип данных вернёт функция input()?",
+        "options": ["int", "str", "Зависит от ввода пользователя", "Ничего"],
+        "correct_option": 1
+    },
+    {
+        "question": "Как можно правильно открыть файл для чтения и записи, если его ещё нет?",
+        "options": ["open(\"file.txt\", \"rw\")", "open(\"file.txt\", \"r\")", "open(\"file.txt\", \"w+\")", "open(\"file.txt\", \"r+\")"],
+        "correct_option": 2
+    },
+    {
+        "question": "Как произвести целочисленное деление в python?",
+        "options": ["/", "%", "*", "//"],
+        "correct_option": 3
+    },
+    {
+        "question": "Как получить остаток от деления в python?",
+        "options": ["%", "/", "**", "//"],
+        "correct_option": 0
+    },
+    {
+        "question": "Как производиться возведение в степень в python?",
+        "options": ["%", "***", "**", "//"],
+        "correct_option": 2
+    },
+    {
+        "question": "Какая библеотека используется для математических выражений в python?",
+        "options": ["NumPy", "SymPy", "Math", "Pandas"],
+        "correct_option": 2
+    }
+]
