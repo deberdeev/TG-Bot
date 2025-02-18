@@ -1,8 +1,9 @@
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters.command import Command
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
-
-
+import os
+#Токен
+API_TOKEN = os.environ['API_TOKEN']
 # Объект бота
 bot = Bot(token=API_TOKEN)
 # Диспетчер
