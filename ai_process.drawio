@@ -1,58 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2025-11-24T10:00:00.000Z" agent="GPT-5.1 Codex" version="20.8.20" editor="5.0.2">
-  <diagram id="QxV7oDu3GfUuWkUe5w5S" name="AI-Driven BR Process">
-    <mxGraphModel dx="1408" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2025-11-24T10:30:00.000Z" agent="GPT-5.1 Codex" version="20.8.20" editor="5.0.2">
+  <diagram id="QxV7oDu3GfUuWkUe5w5S" name="AI Business Flow">
+    <mxGraphModel dx="1408" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="900" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="Инициатор / бизнес&#xa;Проблема → запрос" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#005073;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="80" y="200" width="160" height="90" as="geometry"/>
+        <mxCell id="start" value="Инициатор&#xa;Бизнес-идея" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#0D47A1;fillColor=#BBDEFB;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="150" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="3" value="1. Зарождение идеи&#xa;- Чат → автораспознание запроса&#xa;- Автозаполнение шаблона БТ&#xa;- Онлайн-портал / карточки Confluence" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00796B;fillColor=#B2DFDB;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="280" y="140" width="280" height="180" as="geometry"/>
+        <mxCell id="stage1" value="1. Зарождение идеи&#xa;• Диалог в чате с агентом&#xa;• Автозаполнение черновика БТ&#xa;• Онлайн-карточка инициативы (Confluence)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00695C;fillColor=#B2DFDB;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="320" height="210" as="geometry"/>
         </mxCell>
-        <mxCell id="4" value="2. Валидация БТ&#xa;- Проверка правил и нормативки&#xa;- Поиск похожих БТ/ТЗ&#xa;- Комментарии с авто-категоризацией&#xa;- Авто RACI + отправка задач&#xa;- Виртуальный фасилитатор" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6A1B9A;fillColor=#E1BEE7;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="600" y="120" width="300" height="220" as="geometry"/>
+        <mxCell id="stage2" value="2. Валидация БТ&#xa;• Автопроверка правил и нормативки&#xa;• Поиск похожих БТ/ТЗ&#xa;• Комментарии с категоризацией&#xa;• Авто-RACI и рассылка задач&#xa;• Виртуальный фасилитатор" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6A1B9A;fillColor=#E1BEE7;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="320" height="240" as="geometry"/>
         </mxCell>
-        <mxCell id="5" value="4. Работа с ТЗ&#xa;- Умный бриф для аналитика&#xa;- Генерация ТЗ с ключевыми разделами&#xa;- Контроль соответствия БТ ↔ ТЗ&#xa;- Автотрассировка до Jira/Confluence" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#283593;fillColor=#C5CAE9;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="940" y="140" width="280" height="200" as="geometry"/>
+        <mxCell id="stage3" value="3. Работа с ТЗ&#xa;• Умный бриф для аналитика&#xa;• Генерация шаблона ТЗ (архитектура, интеграции, безопасность)&#xa;• Контроль соответствия БТ↔ТЗ&#xa;• Автотрассировка в Jira/Confluence" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1B5E20;fillColor=#C8E6C9;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="960" y="140" width="320" height="220" as="geometry"/>
         </mxCell>
-        <mxCell id="6" value="5. Непрерывное улучшение&#xa;- Метрики по стадиям и итерациям&#xa;- Рекомендации по оптимизации&#xa;- Автообучение и база типовых решений" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BF360C;fillColor=#FFCCBC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="160" width="280" height="180" as="geometry"/>
+        <mxCell id="stage4" value="4. Непрерывное улучшение&#xa;• Метрики по стадиям и итерациям&#xa;• Рекомендации по ускорению&#xa;• Автообучение и база типовых решений" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BF360C;fillColor=#FFCCBC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="170" width="320" height="190" as="geometry"/>
         </mxCell>
-        <mxCell id="7" value="База знаний / релиз&#xa;Обратная связь → новые идеи" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#2E7D32;fillColor=#C8E6C9;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="200" width="180" height="90" as="geometry"/>
+        <mxCell id="end" value="Реализация / база знаний&#xa;→ Новые идеи" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#2E7D32;fillColor=#C5E1A5;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="220" width="190" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=13;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="edge1" value="submit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=12;" edge="1" parent="1" source="start" target="stage1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="265" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" value="AI-проверка" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=12;" edge="1" parent="1" source="stage1" target="stage2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=13;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="edge3" value="готово к ТЗ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=12;" edge="1" parent="1" source="stage2" target="stage3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=13;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="edge4" value="пакет в IT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=12;" edge="1" parent="1" source="stage3" target="stage4">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=13;" edge="1" parent="1" source="5" target="6">
+        <mxCell id="edge5" value="релиз / метрики" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=12;" edge="1" parent="1" source="stage4" target="end">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=13;" edge="1" parent="1" source="6" target="7">
+        <mxCell id="edge6" value="обратная связь" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#2E7D32;fontSize=12;" edge="1" parent="1" source="end" target="start">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#2E7D32;fontSize=13;" edge="1" parent="1" source="7" target="2">
+        <mxCell id="agent" value="Агент / AI-платформа&#xa;• Чат и уведомления&#xa;• Проверки и рекомендации&#xa;• Запросы согласующим" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6F00;fillColor=#FFE0B2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="900" y="420" width="320" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="agent" target="stage1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="14" value="Агент / AI-платформа&#xa;Единый чат, проверки, уведомления" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6F00;fillColor=#FFE0B2;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="840" y="380" width="320" height="120" as="geometry"/>
-        </mxCell>
-        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="14" target="3">
+        <mxCell id="agent2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="agent" target="stage2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="14" target="4">
+        <mxCell id="agent3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="agent" target="stage3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="14" target="5">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="14" target="6">
+        <mxCell id="agent4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="agent" target="stage4">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
