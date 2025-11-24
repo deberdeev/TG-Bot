@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2025-11-24T10:00:00.000Z" agent="GPT-5.1 Codex" version="20.8.20" editor="5.0.2">
+  <diagram id="QxV7oDu3GfUuWkUe5w5S" name="AI-Driven BR Process">
+    <mxGraphModel dx="1408" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Инициатор / бизнес&#xa;Проблема → запрос" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#005073;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="160" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="1. Зарождение идеи&#xa;- Чат → автораспознание запроса&#xa;- Автозаполнение шаблона БТ&#xa;- Онлайн-портал / карточки Confluence" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00796B;fillColor=#B2DFDB;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="280" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="2. Валидация БТ&#xa;- Проверка правил и нормативки&#xa;- Поиск похожих БТ/ТЗ&#xa;- Комментарии с авто-категоризацией&#xa;- Авто RACI + отправка задач&#xa;- Виртуальный фасилитатор" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6A1B9A;fillColor=#E1BEE7;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="300" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="4. Работа с ТЗ&#xa;- Умный бриф для аналитика&#xa;- Генерация ТЗ с ключевыми разделами&#xa;- Контроль соответствия БТ ↔ ТЗ&#xa;- Автотрассировка до Jira/Confluence" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#283593;fillColor=#C5CAE9;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="940" y="140" width="280" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="5. Непрерывное улучшение&#xa;- Метрики по стадиям и итерациям&#xa;- Рекомендации по оптимизации&#xa;- Автообучение и база типовых решений" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BF360C;fillColor=#FFCCBC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="160" width="280" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="База знаний / релиз&#xa;Обратная связь → новые идеи" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#2E7D32;fillColor=#C8E6C9;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="200" width="180" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=13;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=13;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=13;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=13;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#37474F;fontSize=13;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#2E7D32;fontSize=13;" edge="1" parent="1" source="7" target="2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="Агент / AI-платформа&#xa;Единый чат, проверки, уведомления" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6F00;fillColor=#FFE0B2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="840" y="380" width="320" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="14" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="14" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="14" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;strokeColor=#FF6F00;fontSize=12;" edge="1" parent="1" source="14" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
